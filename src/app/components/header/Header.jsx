@@ -118,7 +118,7 @@ const Navbar = () => {
               variants={textVariants}
             >
               <FlipLink href="/" textSize="text-2xl" textFontSize="font-[700]" textTransform="normal-case">
-                Your Name
+                Mayur Kawale
               </FlipLink>
             </motion.div>
           </div>

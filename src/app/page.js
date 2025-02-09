@@ -15,7 +15,7 @@ export default function Home() {
       <CustomCursor />
       <Navbar />
       <Hero />
-      <AnimText text={"Creative Frontend Developer"} />
+      <AnimText text={"Skilled Full Stack Developer"} />
       <Projects />
       <About />
       <div className="min-h-screen flex flex-col justify-center items-center pt-20 xl:pt-0">

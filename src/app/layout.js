@@ -4,7 +4,7 @@ import { Syne } from "next/font/google";
 const fontSyne = Syne({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "PAUL DEV",
+  title: "MAYUR DEV",
   description: "Portfolio website",
 };
 
