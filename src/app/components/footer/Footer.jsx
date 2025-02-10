@@ -144,7 +144,7 @@ const Footer = () => {
                                     <Image src={map} alt=" " width={1080} height={1080} className="w-[30px] mt-1 object-contain" />
                                     <div>
                                         <h3 className="text-2xl font-semibold">Address</h3>
-                                        <p className="text-lg text-primary-white/80">Karachi, Pakistan.</p>
+                                        <p className="text-lg text-primary-white/80">Nagpur,India.</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-x-5 mt-10 lg:mt-14">
@@ -152,9 +152,9 @@ const Footer = () => {
                                     <div>
                                         <h3 className="text-2xl xl:text-2xl font-semibold">Phone & Email</h3>
                                         <p className="text-lg text-primary-white/80">
-                                            <a href="tel:(+92)1234567" className="hover:text-gray-300 transition">(+92) 123-2456789</a>
+                                            <a href="tel:(+92)1234567" className="hover:text-gray-300 transition">(+91) 88305-28553</a>
                                             <br />
-                                            <a href="mailto:user123@gmail.com" className="hover:text-gray-300 transition">user123@gmail.com</a>
+                                            <a href="mailto:user123@gmail.com" className="hover:text-gray-300 transition">kawalemayur30@gmail.com</a>
                                         </p>
                                     </div>
                                 </li>
