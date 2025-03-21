@@ -48,7 +48,6 @@ const Footer = () => {
             valid = false;
         }
 
-        // Email validation
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!formData.email.trim()) {
             newErrors.email = 'Email is required';
@@ -68,7 +67,6 @@ const Footer = () => {
             valid = false;
         }
 
-        // Project Details validation
         if (!formData.projectDetails.trim()) {
             newErrors.projectDetails = 'Project details are required';
             valid = false;
@@ -77,8 +75,6 @@ const Footer = () => {
         setErrors(newErrors);
         return valid;
     };
-
-    // Handle form submission
     const handleSubmit = async (e) => {
         e.preventDefault();
 

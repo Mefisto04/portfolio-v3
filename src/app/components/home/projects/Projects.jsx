@@ -20,10 +20,8 @@ const Projects = () => {
     { id: 4, image: img4, link: "" },
     { id: 5, image: img3, link: "" },
     { id: 6, image: img4, link: "" },
-    // You can add more cards if necessary
   ];
 
-  // Control how many cards are initially shown
   const visibleCards = showMore ? portfolioCards : portfolioCards.slice(0, 4);
 
   const textVariants = {
